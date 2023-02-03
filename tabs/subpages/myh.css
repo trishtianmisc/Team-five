@@ -1,0 +1,147 @@
+*
+{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  font-family: "Itim", sans-serif;
+
+}
+#circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: black;
+}
+.logo img{
+  width: 1350px;
+  height: 700px;
+}
+.menu-bar
+{
+position: absolute; top: 230px;
+}
+input[type=text] {
+  width: 22%;
+  padding: 6px 0px;
+  margin: 0px 500;
+  display: inline-block;
+  border: 1px solid #808080;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
+}
+input[type=password]
+{
+  width: 22%;
+  padding: 6px 0;
+  margin: 8px 500;
+  display: inline-block;
+  border: 1px solid #808080;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+input[type=checkbox]
+{
+  position: absolute; right: 650; top: 95;
+  margin: 0px 10;
+  color: white;
+
+}
+label[for=menu-bar]{
+margin:111 px 500;
+font-size: 90px;
+position: absolute; left: 600px; top: 100px;
+}
+label[for=chk]{
+position: absolute; top: 92px;
+left: 698;
+}
+.login {
+  background-color: #000000;
+  color: white;
+  width: 22%;
+  padding: 6px;
+  margin: 30px 500;
+  left: 50;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.login:hover {
+  opacity: 0.1;
+}
+
+.adminlogin {
+  width: 21.5%;
+  position: absolute; top: 160px; left: 48px;
+  padding: 6px;
+  margin: 0px 468;
+  background-color: #000000;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+span[class=psw]{
+  margin: 0px 0;
+  position: absolute;
+  right: 560;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  margin: 0px 0;
+
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  color: gray;
+}
+a:link {
+         color: gray;
+      }
+      a:visited {
+         color: gray;
+         text-decoration: none;
+      }
+
+  .fa-user {
+      position: absolute;
+      min-width: 40px;
+      right: 530px;
+      top: 20px;
+  }
+  .fa-key {
+      position: absolute;
+      min-width: 40px;
+      right: 530px;
+      top: 60px;
+  }
+
+
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  }
+}
